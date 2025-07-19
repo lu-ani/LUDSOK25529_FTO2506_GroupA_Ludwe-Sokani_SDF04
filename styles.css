@@ -1,0 +1,91 @@
+/*base stylings*/
+:root{
+    --codegreen: #659f8f;
+}
+
+/* End of Base Stylings*/
+
+footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: var(--codegreen);
+}
+
+.container{
+    padding-top:20px;
+    display: flex;
+   /* flex-wrap: wrap;*/
+    align-items: baseline;
+    border-style: none none solid none;
+    border-color: red;
+    border-width: 0.5px;
+}
+
+.contents{
+    width:400px;
+}
+.quick-link, .technologies{
+   width: 300px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input{
+    border-radius:5px;
+    border: none;
+    width: 125px;
+    padding:8px;
+}
+
+::placeholder{
+    opacity: 1;
+    color: rgba(27, 26, 26, 0.295);
+}
+
+button{
+    display:inline;
+    background-color: rgba(235, 90, 0, 0.785);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 80px;
+    margin-left:10px;
+    padding:10px;
+  /*font-size: 8px; */
+    font-size: 11px;
+    font-weight: bold;
+}
+
+h4{
+    margin-left: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+}
+
+.logo{
+    height:20px;
+}
+
+.flex{
+    padding-left: 1%;
+    padding-bottom: 50px;
+
+}
+
+img{
+    margin-top: 20px;
+}
+
+/*.referance{
+    width:100%;
+}
+*/
