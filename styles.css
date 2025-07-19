@@ -130,3 +130,46 @@ img{
     }
     
 }
+
+
+/* Phone dimendion */
+@media (max-width:376px){
+    .container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    button{
+        margin-top: 5px;
+        width:107%;
+        margin-left: 0%;
+    }
+
+    input{
+        width:100%;
+    }
+
+    .technologies{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    
+    }
+
+    .quick-link{
+        width: 100%;
+    }
+
+    ul{
+        padding:0%;
+    }
+
+    h4{
+        margin-left: 0%;
+    }
+    .logo{
+        height:30px;
+    }
+
+    
+}
