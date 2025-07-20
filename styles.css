@@ -59,6 +59,10 @@ button{
     font-weight: bold;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 h4{
     margin-left: 40px;
 }
