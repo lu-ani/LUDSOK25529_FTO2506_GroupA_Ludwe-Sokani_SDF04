@@ -99,6 +99,47 @@ img{
     margin-top: 20px;
 }
 
+.icons{
+    margin-top: -50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    float: right;
+}
+
+.fa:hover{
+    opacity: 0.8;
+    background-color: var(--codered);
+    color: var(--codegreen);
+}
+
+.fa-facebook{
+    background-color: var(--codegreen);
+    color: var(--codered);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fa-instagram{
+    background-color: var(--codegreen);
+    color: var(--codered);  
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fa-linkedin{
+    background-color: var(--codegreen);
+    color: var(--codered);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fa-youtube{
+    background-color: var(--codegreen);
+    color: var(--codered);
+    padding: 5px;
+    border-radius: 5px;
+}
+
 /*.referance{
     width:100%;
 }
