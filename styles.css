@@ -78,6 +78,8 @@ li{
 
 li:hover{
     color: var(--codered)
+}
+
 a{
     text-decoration: none;
     color: inherit;
